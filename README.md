@@ -1,37 +1,37 @@
-Terry Stops Analysis: A Data-Driven Approach to Predicting Arrests
+# **Terry Stops Analysis: A Data-Driven Approach to Predicting Arrests**
 
-Project Overview
+## **Project Overview**
 
 This project analyzes Terry Stops, a law enforcement practice where officers stop individuals based on reasonable suspicion.
 The goal is to develop a predictive model that determines the likelihood of an arrest occurring during a Terry Stop, ensuring fairness, transparency, and accountability in policing.
 
-Business & Data Understanding
+## **Business & Data Understanding**
 
-Problem Statement
+**Problem Statement**
 
 Law enforcement agencies need data-driven insights to ensure fair and unbiased arrests.
 
 This project aims to predict whether an arrest will occur during a Terry Stop using machine learning.
 
-Stakeholders
+**Stakeholders**
 
 Law Enforcement Agencies – Use insights to optimize stop policies and ensure fairness.
 Policymakers & Civil Rights Organizations – Evaluate potential biases and recommend policy adjustments.
 Citizens & Community Groups – Promote transparency and trust in law enforcement.
 
-Dataset Overview
+**Dataset Overview**
 
 The dataset contains Terry Stops records, including demographics, stop resolutions, and officer characteristics.
 
 It consists of 62,717 rows and 23 columns.
 
-Key Features
+**Key Features**
 
 Categorical Variables: Stop Resolution, Weapon Type, Precinct.
 
 Numerical Variables: Officer YOB, Reported Hour, Day of Week.
 
-Data Preprocessing Steps
+**Data Preprocessing Steps**
 
 ✅ Handled missing values using median imputation.
 
@@ -43,7 +43,7 @@ Data Preprocessing Steps
 
 ✅ Addressed class imbalance using SMOTE.
 
-Model Development
+## **Model Development**
 
 Chosen Model: Logistic Regression
 
@@ -55,7 +55,7 @@ Computationally efficient, making it ideal for large datasets.
 
 Provides insights into key predictive features.
 
-Model Training Steps
+**Model Training Steps**
 
 ✅ Pipeline for Preprocessing & Training – Ensured structured workflow.
 
@@ -65,9 +65,9 @@ Model Training Steps
 
 ✅ Final Model Selection – Best Logistic Regression model chosen based on F1-score and fairness assessment.
 
-Model Evaluation
+## **Model Evaluation**
 
-Key Performance Metrics
+**Key Performance Metrics**
 
 ✅ Classification Report: Precision, Recall, and F1-score analyzed.
 
@@ -87,9 +87,9 @@ Observations from Further Model Tuning
 
 ✅ Decision Threshold Optimization helped achieve better Precision-Recall balance.
 
-Findings & Recommendations
+## **Findings & Recommendations**
 
-Findings
+**Findings**
 
 ✅ Predictive Features Identified – Stop Resolution, Weapon Type, and Reported Hour were the strongest predictors.
 
@@ -97,7 +97,7 @@ Findings
 
 ✅ Bias Testing Exposed Minor Variations – While generally fair, some demographic groups had slight accuracy differences.
 
-Recommendations
+**Recommendations**
 
 1️⃣ Enhancing Law Enforcement Decision-Making
 
@@ -121,7 +121,7 @@ Conduct periodic fairness audits to ensure the model does not disproportionately
 
 Develop guidelines for the responsible use of AI in law enforcement.
 
-Next Steps
+## **Next Steps**
 
 ✅ Pilot the model in real-world policing scenarios to assess effectiveness in live decision-making.
 
